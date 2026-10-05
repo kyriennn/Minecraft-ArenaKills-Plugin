@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("xyz.jpenilla.run-paper") version "3.1.0"    // applies the runServer command
 }
 
 group = "io.github.kyriennn"
@@ -17,4 +18,10 @@ dependencies {
 
 java{
     toolchain.languageVersion.set(JavaLanguageVersion.of(25))
+}
+
+tasks{
+    runServer{
+        minecraftVersion("26.2")
+    }
 }

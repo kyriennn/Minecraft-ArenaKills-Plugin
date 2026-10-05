@@ -10,7 +10,7 @@ public final class ArenaPlugin extends JavaPlugin implements Listener{
     @Override
     public void onEnable(){
         getLogger().info("ArenaKills Enabled!");
-        //adding a the Plugin version of Listener from the Pong Project
+        //adding the Plugin version of Listener from the Pong Project
         getServer().getPluginManager().registerEvents(this, this);
     }
 
