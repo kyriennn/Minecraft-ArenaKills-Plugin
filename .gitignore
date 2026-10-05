@@ -1,0 +1,11 @@
+  # Java / Gradle / IntelliJ
+  build/
+  .gradle/
+  .idea/
+  *.class
+  run/
+
+  # Next.js / Node
+  node_modules/
+  .next/
+  .env*

@@ -1,0 +1,5 @@
+name: ArenaKills
+version: 1.0.0
+main: io.github.kyriennn.ArenaPlugin
+api-version: 26.2
+description: 1v1 Arena Duels with player stat tracking
