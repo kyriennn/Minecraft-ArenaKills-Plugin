@@ -1,0 +1,1 @@
+rootProject.name = "Minecraft-Arena-Kills-Plugin"
